@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(145, 145, 145);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(73, 114, 138)
+}
+
+.body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+ .div {
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    width: 300px;
+    height: 550px; 
+    background-color: rgb(23, 48, 59);
+    border-radius: 25px;
+    border: 7px solid rgb(0, 0, 0);
+    outline: 3px solid rgb(255, 255, 255);
+ }
+
+p {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 250px;
+    text-align: left;
+    font-size: 19px;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(73, 114, 138);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(73, 114, 138);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+a button:hover {
+    text-shadow: 0 0 10px;
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px;
+    background-color: rgba(73, 114, 138, 0.534);
+}
+
+.camara {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    top: 2px;
+    left: 140px;
+    border-radius: 50px;
+    outline: 1px solid white;
+}
